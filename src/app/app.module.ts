@@ -8,11 +8,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CompanyComponent } from './components/company/company.component';
+import { EmployeeComponent } from './components/employee/employee.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    CompanyComponent
+    CompanyComponent,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
