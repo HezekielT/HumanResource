@@ -9,12 +9,14 @@ import { MaterialModule } from './material/material.module';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CompanyComponent } from './components/company/company.component';
 import { EmployeeComponent } from './components/employee/employee.component';
+import { DepartmentComponent } from './components/department/department.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CompanyComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    DepartmentComponent
   ],
   imports: [
     BrowserModule,
